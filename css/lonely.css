@@ -1,0 +1,154 @@
+.loser-row{
+    width: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    padding: 30px 0;
+}
+.loser-left, .loser-right{
+    float: left;
+    width: 48%;
+    min-height:10px;
+    position: relative;
+}
+.loser-right{
+    padding-left: 2%;
+}
+.loser-left{
+    text-align: right;
+    float: left;
+    padding-right: 2%;
+}
+.loser-container h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    color:#121212;
+    text-shadow: 0px 1px 1px #fff;
+    padding: 20px 0px 0px;
+    border-bottom: 3px solid #555;
+}
+.loser-container h3{
+    margin-top: 34px;
+    padding: 10px 15px;
+    background: rgba(26, 27, 33, 0.6);
+    text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8)
+}
+.loser-container h3.news{
+    background: rgba(50, 80, 125, 8)
+}
+.loser-container h3.sports{
+    background: rgba(127, 0, 0, .8);
+}
+.loser-container h3.features{
+    background: rgba(205, 102, 0, .8);
+}
+.loser-container h3.opinion{
+    background: rgba(70, 102, 72, .8);
+}
+.loser-circle-1{
+	background:url(../images/7.jpg);
+}
+.loser-circle{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -moz-border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    text-indent: -9000px;
+    text-align: left;
+    box-shadow: 
+        0px 2px 5px rgba(0,0,0,0.7) inset, 
+        0px 0px 0px 12px rgba(61,64,85,0.4);
+    background-size: cover;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.loser-small .loser-circle{
+    width: 100px;
+    height: 100px;
+}
+.loser-medium .loser-circle{
+    width: 150px;
+    height: 150px;
+}
+.loser-large .loser-circle{
+    width: 250px;
+    height: 250px;
+}
+.loser-left .loser-circle{
+    float: right;
+    margin-right: 30%;
+}
+.loser-right .loser-circle{
+    float: left;
+    margin-left: 30%;
+}
+.loser-circle-deco:before{
+    width: 29%;
+    height: 0px;
+    border-bottom: 5px dotted #ddd;
+    border-bottom: 5px dotted rgba(17, 17, 22, 0.3);
+    box-shadow: 0px 1px 1px #fff;
+    position: absolute;
+    top: 50%;
+    content: '';
+    margin-top: -3px;
+}
+.loser-left .loser-circle-deco:before{
+    right: 2%;   
+}
+.loser-right .loser-circle-deco:before{
+    left: 2%;   
+}
+.loser-circle-deco:after{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+.loser-left .loser-circle-deco:after{
+    right: 0;
+    border-right: 10px solid #888;
+}
+.loser-right .loser-circle-deco:after{
+    left: 0;
+    border-left: 10px solid #888;
+}
+.loser-container .loser-medium h3{
+    margin-top: 42px;
+}
+.loser-container .loser-large h3{
+    margin-top: 133px;
+}
+.loser-container .loser-left h3{
+    border-right: 5px solid rgba(164,166,181,0.8);
+}
+.loser-container .loser-right h3{
+    border-left: 5px solid rgba(164,166,181,0.8);
+}
+.loser-container h3 span.top{
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+}
+.loser-container h3 a{
+    font-size: 28px;
+    color: rgba(255,255,255,0.9);
+    display: block;
+}
+.loser-container h3 a:hover{
+    color: rgba(255,255,255,1);
+}
+.loser-container .backface-wrapper{
+	box-shadow: 0px 0px 8px black;
+	-webkit-box-shadow: 0px 0px 8px black;
+	-moz-box-shadow: 0px 0px 8px black;
+	border-bottom: 1px solid #555;
+}
