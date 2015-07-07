@@ -13,7 +13,7 @@ The website was unexpectedly awarded the nation-wide Best High-School Newspaper 
 
 HW Chronicle is [MPL licensed](./LICENSE?raw=true) and is available for limited public use under the license included in this repo.
 
-## Version Screenshots
+## Screenshots
 
 ![ScreenShot](./screenshots/v1.png)
 ![ScreenShot](./screenshots/v2.png)
